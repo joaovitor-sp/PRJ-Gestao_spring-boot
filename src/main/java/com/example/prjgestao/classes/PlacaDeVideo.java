@@ -15,5 +15,25 @@ public class PlacaDeVideo {
         this.tdp = tdp;
         this.preco = preco;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getFabricante() {
+        return fabricante;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public double getTdp() {
+        return tdp;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
     
 }

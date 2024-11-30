@@ -12,7 +12,7 @@ import com.example.prjgestao.classes.ListaProdutos;
 @RequestMapping("/exemplo")
 public class exemploController {
 
-    private ListaProdutos listaProdutos;
+    private final ListaProdutos listaProdutos;
 
     public exemploController(ListaProdutos listaProdutos) {
         this.listaProdutos = listaProdutos;
@@ -20,7 +20,6 @@ public class exemploController {
 
     @GetMapping("/dados")
     public ListaProdutos exemplo() {
-        listaProdutos.listarProdutos();
         return listaProdutos;
     }
     
