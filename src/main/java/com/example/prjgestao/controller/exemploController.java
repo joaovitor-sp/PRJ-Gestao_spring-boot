@@ -35,6 +35,7 @@ public class exemploController {
         double tdpGPUescolhida = 0;
         double  precoProcessadorEscolhido = 0;
         double tdpProcessadorEscolhido = 0;
+
         List<PlacaDeVideo> listaPlacasDeVideo = listaProdutos.getListaPlacaDeVideos();
         for(PlacaDeVideo listPlacaDeVideo : listaPlacasDeVideo) {
             if(listPlacaDeVideo.getModelo().equals(placaDeVideo)) {
